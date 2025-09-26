@@ -1,4 +1,4 @@
-from openai.agents import Agent
+from agents import Agent
 from tools import calculate_savings, get_stock_price
 from guardrails import FinanceQuery, safety_guardrail
 import os
