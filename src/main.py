@@ -1,6 +1,6 @@
 import asyncio
 from finance_agents import triage_agent
-from openai.agents import Runner
+from agents import Runner
 
 async def run_finance_assistant(query: str):
     try:
