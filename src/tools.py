@@ -15,7 +15,7 @@ def calculate_savings(expenses: list[float], income: float) -> str:
 @tool
 def get_stock_price(symbol: str) -> str:
     key = os.getenv("ALPHAVANTAGE_API_KEY")
-    if not key: 
+    if not key:
         raise "Alpha Vantage API key not found"
 
     url = f"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={symbol}&apikey={key}"
