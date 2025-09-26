@@ -20,7 +20,7 @@ def get_stock_price(symbol: str) -> str:
     return f"Current price for {symbol} is {price}"
 
 def test_tools():
-    print("===Testing calculate_budget===")
+    print("===Testing calculate_savings===")
     expenses = [1000.0, 800.0, 1200.0]
     income = 5000.0
     result = calculate_savings(expenses, income)
